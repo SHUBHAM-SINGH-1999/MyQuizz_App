@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".result"
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/trophy"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hey, Congratulations!"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You Score is 0 of 3."
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="20sp"
+        />
+
+    <Button
+        android:id="@+id/finalbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FINISH"
+        android:textSize="30sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="bottom"
+        />
+
+</LinearLayout>
